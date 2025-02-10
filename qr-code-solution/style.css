@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Outfit:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Outfit", serif;
+    font-size: 15px;
+    color: hsl(216, 15%, 48%);
+}
+
+:root {
+    --color1:hsl(212, 45%, 89%);
+    --color2:hsl(216, 15%, 48%);
+    --color3:hsl(218, 44%, 22%);
+}
+
+body {
+    background-color: var(--color1);
+}
+
+main {
+    width: 320px;
+    height: 80dvh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    background-color:white;
+    padding: 17px;
+    border-radius: 20px;
+}
+
+.qr-code {
+    width: 286px;
+    height: 63%;
+    background: url(images/image-qr-code.png) no-repeat center center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.text {
+    margin: 25px;
+}
+
+.text > p{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.title {
+    font-weight: bolder;
+    font-size: 1.3em;
+    color: hsl(218, 44%, 22%);
+}
+
