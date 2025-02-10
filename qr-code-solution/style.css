@@ -33,7 +33,7 @@ main {
 
 .qr-code {
     width: 286px;
-    height: 63%;
+    height: 60%;
     background: url(images/image-qr-code.png) no-repeat center center;
     background-size: cover;
     border-radius: 10px;
