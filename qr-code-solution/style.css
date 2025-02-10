@@ -39,7 +39,7 @@ main {
     border-radius: 10px;
 }
 .text {
-    margin: 20px;
+    margin: 15px;
 }
 
 .text > p{
@@ -48,7 +48,7 @@ main {
 }
 
 .title {
-    font-weight: bolder;
+    font-weight: 700;
     font-size: 1.5em;
     color: hsl(218, 44%, 22%);
 }
